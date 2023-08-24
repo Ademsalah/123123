@@ -1,0 +1,17 @@
+BEGIN
+nb_mot=0
+nb_voyel=0
+    FOR i FROM 0 TO length(phrase) STEP 1 DO
+        if(phrase[i]=" ") then
+        nb_mot=nb_mot+1
+    END_FOR
+    read(nb_mots)
+    FOR i FROM 0TO length(phrase) STEP 1  DO
+        set_instructions
+    END_FOR
+    if str[i]="a" or str[i]=str "i" or str[i]="e" or str[i]="o" or str[i]="y"
+    nb-voyel=nb_voyel+1
+    END_FOR
+    read (nb_voyel)
+    ecrire ("voici la lalongeur de  la phrase",length(phrase))
+END
